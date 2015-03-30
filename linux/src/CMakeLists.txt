@@ -1,0 +1,2 @@
+INCLUDE_DIRECTORIES(LinearSFMImp)   
+SUBDIRS(LinearSFMImp LinearSFM) 

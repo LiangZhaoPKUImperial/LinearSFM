@@ -1,0 +1,11 @@
+Linear SFM: by Liang Zhao, Shoudong Huang, Gamini Dissanayake is licensed under a GPLv3 license (see License-gpl.txt).
+
+If you use this code for academic work, please reference:
+
+      Liang Zhao, Shoudong Huang, and Gamini Dissanayake,
+      Linear MonoSLAM: A Linear Approach to Large-Scale Monocular SLAM Problems,
+      IEEE International Conference on Robotics and Automation (ICRA), 2013.
+
+
+
+

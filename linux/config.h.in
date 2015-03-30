@@ -1,0 +1,18 @@
+#ifndef LinearSFM_CONFIG_H
+#define LinearSFM_CONFIG_H
+
+#cmakedefine LinearSFM_SHARED_LIBS 1
+#cmakedefine LinearSFM_LGPL_SHARED_LIBS 1
+
+// available sparse matrix libraries
+#cmakedefine LinearSFM_HAVE_CHOLMOD 1
+
+#cmakedefine LinearSFM_CXX_COMPILER "@LinearSFM_CXX_COMPILER@"
+
+// give a warning if Eigen defaults to row-major matrices.
+// We internally assume column-major matrices throughout the code.
+#ifdef EIGEN_DEFAULT_TO_ROW_MAJOR
+#  error "LinearSFM requires column major Eigen matrices (see http://eigen.tuxfamily.org/bz/show_bug.cgi?id=422)"
+#endif
+
+#endif
