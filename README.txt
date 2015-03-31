@@ -6,7 +6,7 @@ Version: 1.0
 Copyright (C) 2015 Liang Zhao, Shoudong Huang, and Gamini Dissanayake
 University of Technology, Sydney, Australia
 
-C/C++ sourse code for ParallaxBA: Bundle Adjustment with Parallax Angle Feature Parametrization
+C/C++ sourse code for Linear SFM: A Hierarchical Approach to Solving Structure from Motion Problems by Decoupling the Linear and Nonlinear Components
 
 Authors:  Liang Zhao         -- liang.zhao@imperial.ac.uk 
           Shoudong Huang     -- Shoudong.Huang@uts.edu.au
